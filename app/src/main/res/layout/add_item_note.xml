@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/addNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="Title"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/addNoteDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:gravity="top|start"
+        android:scrollbars="vertical"
+        android:overScrollMode="ifContentScrolls"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
